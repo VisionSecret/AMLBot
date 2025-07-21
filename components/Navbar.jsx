@@ -289,7 +289,7 @@ const Navbar = () => {
             link="/signup"
             type="button"
             children={"Create an account"}
-            className="text-lg font-semibold px-4 py-2.5 rounded-full bg-white text-black hover:text-white hover:bg-[#3056D3]"
+            className="text-lg font-semibold px-4 py-2.5 rounded-full bg-[#3056D3] text-black hover:text-white hover:bg-zinc-900"
           />
         </div>
       </div>
