@@ -2,8 +2,8 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>
-      what do we analaysis??
+    <div className='h-screen'>
+      <h1 className='text-4xl font-bold'>What do we analyze?</h1>
     </div>
   )
 }

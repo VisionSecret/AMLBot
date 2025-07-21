@@ -2,12 +2,12 @@ import React from "react";
 import Image from "next/image";
 
 const companies = [
-  { src: "/images/logos/company1.webp", alt: "Company 1" },
-  { src: "/images/logos/company2.webp", alt: "Company 2" },
-  { src: "/images/logos/company3.webp", alt: "Company 3" },
-  { src: "/images/logos/company4.webp", alt: "Company 4" },
-  { src: "/images/logos/company5.webp", alt: "Company 5" },
-  { src: "/images/logos/company6.webp", alt: "Company 6" },
+  { src: "/images/logos/company1.png", alt: "Trusted by Company 1" },
+  { src: "/images/logos/company2.png", alt: "Trusted by Company 2" },
+  { src: "/images/logos/company3.png", alt: "Trusted by Company 3" },
+  { src: "/images/logos/company4.png", alt: "Trusted by Company 4" },
+  { src: "/images/logos/company5.png", alt: "Trusted by Company 5" },
+  { src: "/images/logos/company6.png", alt: "Trusted by Company 6" },
 ];
 
 const TrustedBy = () => {

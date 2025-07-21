@@ -1,4 +1,3 @@
-// components/SmoothScrollProvider.jsx
 "use client";
 import { useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
@@ -6,10 +5,10 @@ import Lenis from "@studio-freight/lenis";
 export default function LenisProvider({ children }) {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.5, // slower = smoother
-      easing: (t) => t, // linear easing = smooth and natural
+      duration: 0.9, // lower = faster, try between 0.7 and 1.2
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // natural easing
       smooth: true,
-      smoothTouch: true, // optional for touch devices
+      smoothTouch: true,
     });
 
     const raf = (time) => {
