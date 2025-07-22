@@ -38,7 +38,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 w-full flex items-center justify-between bg-white/90 backdrop-blur-lg text-black shadow-xl">
+    <nav className="fixed top-0 left-0 right-0 z-50 w-full flex items-center justify-between bg-[#FFFFFF] text-black">
       <div className="relative flex justify-between items-center w-full py-5 px-6 md:px-20">
         {/* LEFT - Logo */}
         <Link
@@ -55,7 +55,7 @@ const Navbar = () => {
         </Link>
 
         {/* CENTER - Links */}
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-5">
           {/* PRODUCTS */}
           <div onClick={() => setIsProductsOpen((prev) => !prev)}>
             <button className="flex items-center space-x-1 text-lg font-medium text-zinc-800 p-1 rounded-lg hover:bg-[#ffffff67] hover:text-black">
@@ -231,7 +231,7 @@ const Navbar = () => {
             Analysis
           </Link>
           <Link
-            href="#faq"
+            href="#faqs"
             className="text-lg font-medium text-zinc-800 py-0.5 px-1.5 rounded-lg hover:bg-[#ffffff67] hover:text-black"
           >
             FAQ

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const PricingSection = () => {
   return (
-    <section className="w-full py-20 px-4">
+    <section id="pricing" className="w-full py-20 px-4">
       <div className="group max-w-6xl mx-auto flex flex-col md:flex-row items-center bg-white rounded-[20px] overflow-hidden transition-all duration-700 ease-in-out cursor-pointer">
         {/* Left Content */}
         <div className="w-full md:w-[60%] px-10 py-20">

@@ -86,7 +86,7 @@ const FaqSection = () => {
   };
 
   return (
-    <section className="py-24 px-4 md:px-16">
+    <section id="faqs" className="py-24 px-4 md:px-16">
       <div className="text-center mb-20">
         <h1 className="text-5xl font-extrabold text-zinc-900">FAQs</h1>
       </div>

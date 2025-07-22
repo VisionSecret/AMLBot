@@ -1,12 +1,11 @@
-import Home from "@/app/(site)/Home";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export default function HomePage() {
+export default function SiteLayout({ children }) {
   return (
     <>
       <Navbar />
-      <Home />
+      <main>{children}</main>
       <Footer />
     </>
   );
